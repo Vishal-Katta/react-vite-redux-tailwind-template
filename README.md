@@ -6,6 +6,24 @@ This markdown file provides a list of dependencies used in the project, along wi
 
 This project relies on several external libraries and frameworks to enhance development efficiency, improve UI/UX, and streamline state management. Below is a curated list of dependencies with their respective explanations.
 
+## Installation
+
+To install the project dependencies, you can use npm. Run the following command in your terminal:
+
+```bash
+git clone https://github.com/Vishal-Katta/react-vite-redux-tailwind-mui-template.git
+cd react-vite-redux-tailwind-mui-template
+```
+
+## Running the Server
+
+To start the development server, you can use npm scripts. Run the following command in your terminal:
+
+```bash
+npm install
+npm start
+```
+
 ## Dependencies
 
 - ![React](https://img.shields.io/badge/React-_-61DAFB?logo=react)  
