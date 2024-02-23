@@ -1,12 +1,8 @@
-# Project Dependencies
-
-This markdown file provides a list of dependencies used in the project, along with brief explanations for each.
-
-## Introduction
+# Introduction
 
 This project relies on several external libraries and frameworks to enhance development efficiency, improve UI/UX, and streamline state management. Below is a curated list of dependencies with their respective explanations.
 
-![Project Stack](.images/ProjectStack.png)
+![Project Stack](/public/ProjectStack.png)
 
 ## Installation
 
@@ -27,6 +23,7 @@ npm start
 ```
 
 ## Dependencies
+A list of dependencies used in the project, along with brief explanations for each.
 
 - ![React](https://img.shields.io/badge/React-_-61DAFB?logo=react)  
   React is a JavaScript library for building user interfaces, developed and maintained by Facebook.
