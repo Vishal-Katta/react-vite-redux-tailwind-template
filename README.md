@@ -9,7 +9,7 @@ This project relies on several external libraries and frameworks to enhance deve
 To clone the project, Run the following command in your terminal:
 
 ```bash
-git clone https://github.com/Vishal-Katta/react-vite-redux-tailwind-mui-template.git
+git clone https://github.com/Vishal-Katta/react-vite-redux-tailwind-template.git
 ```
 
 ## Running the Server
@@ -17,7 +17,7 @@ git clone https://github.com/Vishal-Katta/react-vite-redux-tailwind-mui-template
 To start the development server, you can use npm scripts. Run the following command in your terminal:
 
 ```bash
-cd react-vite-redux-tailwind-mui-template
+cd react-vite-redux-tailwind-template
 npm install
 npm start
 ```
