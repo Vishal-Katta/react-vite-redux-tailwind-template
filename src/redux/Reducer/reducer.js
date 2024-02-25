@@ -28,12 +28,6 @@ const DataReducers = (state = initialState, action) => {
         token: null,
         userId: null,
       };
-    case types.PRODUCTS_LIST:
-      return {
-        ...state,
-        productList: action.payload.data,
-        productList_meta: action.payload.meta,
-      };
     default:
       return state;
   }
