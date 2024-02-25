@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { loadProductListData } from "../redux/Action/action";
 
@@ -34,7 +34,7 @@ export default function Hello() {
 
   const { productList } = useSelector((state) => state.data);
 
-  useState(() => {
+  useEffect(() => {
     dispatch(loadProductListData());
   }, []);
 
