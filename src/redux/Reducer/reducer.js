@@ -12,12 +12,11 @@ const initialState = {
 };
 
 const DataReducers = (state = initialState, action) => {
-  // console.log("action", action.type, action.payload);
   switch (action.type) {
     case types.LOGIN:
       return {
         ...state,
-        loggedIn: action.payload.token && action.payload.userId && true,
+        loggedIn: action.payload.token && action.payload.userId,
         token: action.payload.token,
         userId: action.payload.userId,
       };

@@ -1,5 +1,3 @@
-import React from "react";
-
 const libraries = [
   {
     name: "Vite",
@@ -35,12 +33,13 @@ export default function Hello() {
           Hello
         </div>
         <div className="text-lg font-semibold mb-4">
-          This Project setup Template includes the following. <br />Happy Coding!
+          This Project setup Template includes the following. <br />
+          Happy Coding!
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
-          {libraries.map((library, index) => (
+          {libraries.map((library) => (
             <div
-              key={index}
+              key={library?.id}
               className="flex flex-col items-center p-4 rounded-lg shadow-md bg-white hover:bg-gray-200 transition duration-300 ease-in-out"
             >
               <img
