@@ -1,3 +1,7 @@
+import { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { loadProductListData } from "../redux/Action/action";
+
 const libraries = [
   {
     name: "Vite",
@@ -26,6 +30,14 @@ const libraries = [
 ];
 
 export default function Hello() {
+  const dispatch = useDispatch();
+
+  const { productList } = useSelector((state) => state.data);
+
+  useState(() => {
+    dispatch(loadProductListData());
+  }, []);
+
   return (
     <div className="min-h-screen min-w-screen flex justify-center items-center bg-gray-100">
       <div className="text-center">
@@ -52,6 +64,14 @@ export default function Hello() {
             </div>
           ))}
         </div>
+        {productList?.length > 0 && (
+          <div className="mt-5 space-y-1">
+            <div className="text-lg font-medium">
+              This List is fetched from Api -&gt; redux -&gt; here
+            </div>
+            <div>{JSON.stringify([...productList.map((o) => o?.title)])}</div>
+          </div>
+        )}
       </div>
     </div>
   );
