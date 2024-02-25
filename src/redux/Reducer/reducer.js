@@ -8,7 +8,6 @@ const initialState = {
 
   // products
   productList: [],
-  productList_meta: {},
 };
 
 const DataReducers = (state = initialState, action) => {
@@ -26,6 +25,12 @@ const DataReducers = (state = initialState, action) => {
         loggedIn: false,
         token: null,
         userId: null,
+      };
+
+    case types.PRODUCTS_LIST:
+      return {
+        ...state,
+        productList: action.payload.products,
       };
     default:
       return state;
