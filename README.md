@@ -27,7 +27,7 @@ This project relies on several external libraries and frameworks to enhance deve
 
 ![Project Stack](/public/ProjectStack.png)
 
-You can checkout the chrome's lighthouse report while running the build! 😏
+You can checkout chrome's lighthouse report while running the build! 😏
 
 ## Installation
 
