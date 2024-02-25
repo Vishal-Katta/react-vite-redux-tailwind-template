@@ -27,6 +27,8 @@ This project relies on several external libraries and frameworks to enhance deve
 
 ![Project Stack](/public/ProjectStack.png)
 
+You can check the lighthouse report while running the build! 😏
+
 ## Installation
 
 To clone the project, Run the following command in your terminal:
