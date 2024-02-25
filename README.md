@@ -3,7 +3,7 @@
 
 <span align="center">
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Vishal-Katta/react-vite-redux-tailwind-template)
+![GitHub release](https://img.shields.io/github/v/release/Vishal-Katta/react-vite-redux-tailwind-template)
 ![Build Status](https://github.com/Vishal-Katta/react-vite-redux-tailwind-template/actions/workflows/build.yml/badge.svg)
 [![GitHub license](https://img.shields.io/github/license/Vishal-Katta/react-vite-redux-tailwind-template)](https://github.com/Vishal-Katta/react-vite-redux-tailwind-template)
 
