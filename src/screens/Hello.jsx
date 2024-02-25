@@ -67,7 +67,7 @@ export default function Hello() {
         {productList?.length > 0 && (
           <div className="mt-5 space-y-1">
             <div className="text-lg font-medium">
-              This List is fetched from Api -&gt; redux -&gt; here
+              This bottom list is fetched from Api -&gt; redux -&gt; here
             </div>
             <div>{JSON.stringify([...productList.map((o) => o?.title)])}</div>
           </div>
