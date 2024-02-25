@@ -11,7 +11,7 @@ const getProductListData = (data) => ({
 
 export const loadProductListData = (params) => {
   return function (dispatch) {
-    var headers = {
+    let headers = {
       "Content-type": "application/json",
       Authorization: `${GLOBAL_CONSTANTS.token}`,
     };
@@ -30,7 +30,7 @@ export const loadProductListData = (params) => {
 // ?post--------------------------------------------------------
 export const forget_password = (data, callback) => {
     return function () {
-      var headers = {
+      let headers = {
         "Content-type": "application/json",
       };
       axios
@@ -43,7 +43,6 @@ export const forget_password = (data, callback) => {
           callback(resp.data);
         })
         .catch(() => {
-          // console.log(error);
           toast.error("Something went wrong", {
             autoClose: 2000,
           });
