@@ -1,4 +1,27 @@
-# Introduction
+# React-Vite-Redux-Tailwind Template
+
+
+<span align="center">
+
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Vishal-Katta/react-vite-redux-tailwind-template)
+<!-- [![Build Status](https://travis-ci.com/Vishal-Katta/react-vite-redux-tailwind-template.svg?branch=main)](https://travis-ci.com/Vishal-Katta/react-vite-redux-tailwind-template) -->
+[![GitHub license](https://img.shields.io/github/license/Vishal-Katta/react-vite-redux-tailwind-template)](https://github.com/Vishal-Katta/react-vite-redux-tailwind-template)
+
+---
+
+[![GitHub issues](https://img.shields.io/github/issues/Vishal-Katta/react-vite-redux-tailwind-template)](https://github.com/Vishal-Katta/react-vite-redux-tailwind-template/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Vishal-Katta/react-vite-redux-tailwind-template)](https://github.com/Vishal-Katta/react-vite-redux-tailwind-template/network)
+[![GitHub stars](https://img.shields.io/github/stars/Vishal-Katta/react-vite-redux-tailwind-template)](https://github.com/Vishal-Katta/react-vite-redux-tailwind-template/stargazers)
+![GitHub contributors](https://img.shields.io/github/contributors/Vishal-Katta/react-vite-redux-tailwind-template)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Vishal-Katta_react-vite-redux-tailwind-template&metric=bugs)](https://sonarcloud.io/dashboard?id=Vishal-Katta_react-vite-redux-tailwind-template)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Vishal-Katta_react-vite-redux-tailwind-template&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=Vishal-Katta_react-vite-redux-tailwind-template)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Vishal-Katta_react-vite-redux-tailwind-template&metric=security_rating)](https://sonarcloud.io/dashboard?id=Vishal-Katta_react-vite-redux-tailwind-template)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Vishal-Katta_react-vite-redux-tailwind-template&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=Vishal-Katta_react-vite-redux-tailwind-template)
+![GitHub commits since latest release ](https://img.shields.io/github/commits-since/Vishal-Katta/react-vite-redux-tailwind-template/latest/main)
+
+</span>
+
+## Introduction
 
 This project relies on several external libraries and frameworks to enhance development efficiency, improve UI/UX, and streamline state management. Below is a curated list of dependencies with their respective explanations.
 
