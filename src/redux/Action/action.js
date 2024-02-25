@@ -9,17 +9,10 @@ const getProductListData = (data) => ({
   payload: data,
 });
 
-export const loadProductListData = (params) => {
+export const loadProductListData = () => {
   return function (dispatch) {
-    let headers = {
-      "Content-type": "application/json",
-      Authorization: `${GLOBAL_CONSTANTS.token}`,
-    };
     axios
-      .get(`${GLOBAL_CONSTANTS.backend_host}api/v1/catalog/products`, {
-        params,
-        headers,
-      })
+      .get(`https://dummyjson.com/products?limit=5`)
       .then((resp) => {
         dispatch(getProductListData(resp.data));
       })
