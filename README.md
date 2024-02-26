@@ -23,7 +23,7 @@
 
 ## Introduction
 
-This project relies on several external libraries and frameworks to enhance development efficiency, improve UI/UX, and streamline state management. Below is a curated list of dependencies with their respective explanations.
+This project relies on several external libraries and frameworks to enhance development efficiency, improve UI/UX, and streamline state management.
 
 ![Project Stack](/public/ProjectStack.png)
 
